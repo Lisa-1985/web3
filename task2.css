@@ -31,6 +31,7 @@ body{
     transform: scale(1.02);
 }
 
+
 .card .favorite{
     text-align: right;
 }
@@ -44,14 +45,14 @@ body{
 }
 
 
-/.card h3{
+.card h3{
     margin: 16px 0px;
     font-size: 20px;
 }
 
 .card .info{
     line-height: 1.2;
-    text-align: justify;
+    margin: 16px 0px;
 }
 
 .card .price{
@@ -75,7 +76,7 @@ body{
     cursor: pointer;
 }
 
-,.card button: :hover{
+.card button:hover{
     opacity: 0.8;
 }
 
